@@ -19,7 +19,7 @@ gems:
 exclude: 
   - README.md
 Include:
-  - public
+  - ../public
 defaults:
   - 
     scope:
