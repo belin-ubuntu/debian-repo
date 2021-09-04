@@ -9,7 +9,7 @@
 title: BeLin 6.0 kiadás - kezdőlap
 email: hammer.attila@infoalap.hu
 description: A BeLin 6.0 kiadás dokumentációs oldala
-baseurl: "/packages" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://belin-ubuntu.github.io/debian-repo"
 
 # Build settings
@@ -18,6 +18,8 @@ gems:
   - jekyll-sitemap
 exclude: 
   - README.md
+Include:
+  - public
 defaults:
   - 
     scope:
