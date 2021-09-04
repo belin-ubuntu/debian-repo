@@ -1,0 +1,35 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: BeLin 6.0 kiadás - kezdőlap
+email: hammer.attila@infoalap.hu
+description: A BeLin 6.0 kiadás dokumentációs oldala
+baseurl: "/packages" # the subpath of your site, e.g. /blog
+url: "http://belin-ubuntu.github.io/debian-repo"
+
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-sitemap
+exclude: 
+  - README.md
+defaults:
+  - 
+    scope:
+      path: "" # all pages should have layout default by default
+      type: "page"
+    values:
+      layout: "default"
+  - 
+    scope:
+      path: "" # all posts should have layout post by default
+      type: "post"
+    values:
+      layout: "post"
+sass:
+    style: expanded
