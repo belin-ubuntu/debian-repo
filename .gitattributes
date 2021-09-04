@@ -1,0 +1,11 @@
+db filter=lfs diff=lfs merge=lfs -text
+pool filter=lfs diff=lfs merge=lfs -text
+pool/* filter=lfs diff=lfs merge=lfs -text
+db/000015.ldb filter=lfs diff=lfs merge=lfs -text
+db/000020.log filter=lfs diff=lfs merge=lfs -text
+db/CURRENT filter=lfs diff=lfs merge=lfs -text
+db/LOCK filter=lfs diff=lfs merge=lfs -text
+db/LOG filter=lfs diff=lfs merge=lfs -text
+db/MANIFEST-000019 filter=lfs diff=lfs merge=lfs -text
+db/MANIFEST-000021 filter=lfs diff=lfs merge=lfs -text
+db/000002.ldb filter=lfs diff=lfs merge=lfs -text
