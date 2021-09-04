@@ -33,3 +33,5 @@ defaults:
       layout: "post"
 sass:
     style: expanded
+
+theme: jekyll-theme-cayman
